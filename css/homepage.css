@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.lead {
+    font-size: 1.25rem;
+    float: left;
+}
+
+.navbar {
+    font-weight: bold;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    width: 100%;
+    height: 100vh;
+    /* Scroll Snap */
+    /* scroll-snap-align: center; */
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+
+/* Section Images */
+
+section#home {
+    background: url('../img/home/fish3.jpg') no-repeat center center/cover;
+    ;
+}
+
+section#home h1 {
+    color: #322a60;
+    font-family: Pacifico;
+    font-weight: lighter;
+    font-size: 90px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+section#home p {
+    font-family: lato;
+    margin-left: 420px;
+    margin-top: -20px;
+    font-size: 1.5rem;
+}
+
+
+/* end of home section */
+
+section#tourGuide {
+    background: url('../img/home/nelum.jpg') no-repeat center center/cover;
+    ;
+}
+
+section#tourGuide h1 {
+    color: white;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 50x;
+    margin-top: 200px;
+    margin-left: 50px;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 900px;
+    padding-top: 20px;
+}
+
+section#tourGuide p {
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+    width: 900px;
+    padding-bottom: 40px;
+}
+
+
+/* end of tour guide section */
+
+section#tourPackage {
+    background: url('../img/home/coco\ \(1\).jpg') no-repeat center center/cover;
+    ;
+}
+
+section#tourPackage h1 {
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 50x;
+    margin-top: 200px;
+    margin-left: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 950px;
+    padding-top: 20px;
+}
+
+section#tourPackage p {
+    text-align: left;
+    margin-left: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 50px;
+    width: 900px;
+    padding-bottom: 40px;
+}
+
+
+/* end of tour package section */
+
+section#requestTour {
+    background: url('../img/home/mount.jpg') no-repeat center center/cover;
+    ;
+}
+
+section#requestTour h1 {
+    color: white;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 50x;
+    margin-top: 200px;
+    margin-left: 50px;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 900px;
+    padding-top: 20px;
+}
+
+section#requestTour p {
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+    width: 900px;
+    padding-bottom: 40px;
+}
+
+
+/* end of request tour section */
+
+section#smartSearch {
+    background: url('../img/home/walk.jpg') no-repeat center center/cover;
+    ;
+}
+
+section#smartSearch h1 {
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 50x;
+    margin-top: 200px;
+    margin-left: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 750px;
+    padding-top: 20px;
+}
+
+section#smartSearch p {
+    text-align: justify;
+    margin-left: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+    width: 700px;
+    padding-bottom: 40px;
+}
+
+
+/* end of smart search section */
+
+section#travelCalendar {
+    background: url('../img/home/sg\ \(3\).jpg') no-repeat center center/cover;
+    ;
+}
+
+section#travelCalendar h1 {
+    color: white;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 50x;
+    margin-top: 200px;
+    margin-left: 50px;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 850px;
+    padding-top: 20px;
+}
+
+section#travelCalendar p {
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 50px;
+    width: 850px;
+    padding-bottom: 40px;
+}
+
+
+/* end of travel calendar section */
+
+.loginbutton {
+    font-weight: bold;
+    height: 50px;
+    float: right;
+    border-radius: 4px;
+    background-color: #322a60;
+    border: white;
+    border: 2px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.loginbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.loginbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.loginbutton:hover span {
+    padding-right: 25px;
+}
+
+.loginbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#signup {
+    margin-right: 50px;
+}
